@@ -39,7 +39,7 @@ pnpm lint
   - pnpm i vue-router
   - pnpm i feather-icons
   - pnpm install vue-backtotop
-  -
+  - pnpm i vue3-autocounter
 - run : pnpm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 - setup vite.config.js
   - setup env
