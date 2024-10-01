@@ -17,6 +17,9 @@ dependencies:
   vue-router:
     specifier: ^4.4.5
     version: 4.4.5(vue@3.5.10)
+  vue3-autocounter:
+    specifier: ^1.0.7
+    version: 1.0.7(vue@3.5.10)
 
 devDependencies:
   '@rushstack/eslint-patch':
@@ -2027,6 +2030,15 @@ packages:
       vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.6.4
+      vue: 3.5.10
+    dev: false
+
+  /vue3-autocounter@1.0.7(vue@3.5.10):
+    resolution: {integrity: sha512-w4Zs5wmOJImx4+kKxCSszeK4v4jhjpkox9rxN0HYoOHpRaYjyXZAItfJRgv03zWqCDLpAEEe25dLqqn7AZjhug==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.0.5
+    dependencies:
       vue: 3.5.10
     dev: false
 
